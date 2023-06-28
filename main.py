@@ -47,17 +47,3 @@ for networkID1 in range (1,255+1):
                     f.flush()
                     port_scan(ip, range(1, 5000), f)
 f.close()
-#sock.close()
-
-
-
-#print("Testing Port {}".format(port))
-#sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-#portResult = sock.connect_ex((ip, port))
-#portResult = sock.connect_ex(('1.0.0.0', 80))
-#if(portResult==0):
-#   f.write(" 53  sgfhsdfgsdfgsdfg")
-#   f.flush()
-#f.write("yayyyy")
-#f.close()
